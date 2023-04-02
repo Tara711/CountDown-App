@@ -1,0 +1,20 @@
+.count {
+  background-color: skyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 3rem;
+  flex-direction: column;
+}
+.days,
+.hours,
+.minutes,
+.seconds {
+  background-color: rgb(76, 130, 151);
+  margin-inline: 1rem;
+  font-size: 4rem;
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+}
